@@ -61,4 +61,58 @@ body {
     display: block;
     text-decoration: none;
     margin-bottom: 1rem;
+
+}
+.container_botao_secundario{
+  background-color:transparent;
+  border: 2px solid var(--branco-principal)
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10rem;
+
+}
+
+.secundario_imagen{
+    width: 70%;
+}
+
+.container_descricao{
+    padding: 2rem;
+}
+
+.dsecricao_titulo{
+    font-size: 3rem;
+    color: var(--branco-principal);
+    margin-bottom: 0,1rem;
+}
+
+.descricao_texto{
+    color: var(--branco-principal);
+}
+ 
+@media screen and (max-width: 768px){
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+    .container__caixa{
+        margin: 2rem;
+    }
+
+    .container__imagem{
+        width: 50vw;
+    }
+    .secundario{
+        text-align: center;
+        margin: 0;
+    }
+
+    .secundario_imagem{
+        width: 50vw;
+    }
+
+
 }
